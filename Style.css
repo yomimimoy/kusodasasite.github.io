@@ -2,3 +2,11 @@ h1 {
     background: #58A6E1;                /*背景色*/
     padding:5px;                        /*文字の余白*/
 }
+
+t1 {
+    color: #FF8C00;
+    /*listの作り方わからんすぎてワロス*/
+    background: -webkit-linear-gradient(0deg, #E60012, #F39800, #F39800, #009944, #0068B7, #1D2088, #920783);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
